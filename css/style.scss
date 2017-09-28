@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import "reset.css";
-@import "../fonts/iconfont.css";
 html,body,.wrap{
     width:100%;
     height: 100%;
@@ -36,4 +35,84 @@ body{
 .main{
     flex: 1;
     overflow-y: scroll;
+    background: #fff;
+    margin-top: .2rem;
+    .key_time{
+        width:90%;
+        margin:0 5%;
+        background: #fff;
+        li{
+            background: #fff;
+            width:100%;
+            height: 2.5rem;
+            border-radius: 10px;
+            border:1px solid #999;
+            margin: .2rem 0;
+            overflow: hidden;
+            .money_bg{
+                background: #fd6060;
+                height: 1.3rem;
+                width:100%;
+                display: flex;
+                justify-content: space-between;
+                color:#fff;
+                p{
+                    position: relative;
+                    span{
+                        font-size: 1.2rem;
+                        line-height: 1.3rem;
+                        padding-left: .7rem;
+                    }
+                    i{
+                        font-size: .55rem;
+                        position: absolute;
+                        top:0.2rem;
+                        left:0.15rem;
+                    }
+                }
+                b{
+                    font-size: .55rem;
+                    font-weight: bold;
+                    line-height: 1.7rem;
+                }
+            }
+            .money_bg2{
+                background: #5686f4;
+            }
+            .money_bg3{
+                background: #965df5;
+            }
+            .money_bg4{
+                background: #4bc670;
+            }
+            .time_sm{
+                p{
+                    font-size: .24rem;
+                    font-weight: bold;
+                    color:#7bd2af;
+                    span{
+                        padding-right: .1rem;
+                        width: .5rem;
+                        height: .5rem;
+                        display: inline-block;
+                        background: url(../img/b.png);
+                        background-position: 0 0;
+                    }
+                }
+                h1{
+                    font-size: .24rem;
+                    font-weight: bold;
+                    color:#9c9c9c;
+                    span{
+                        padding-right: .1rem;
+                        width: .5rem;
+                        height: .5rem;
+                        display: inline-block;
+                        background: url(../img/b.png);
+                        background-position: 0 28px;
+                    }
+                }
+            }
+        }
+    }
 }
